@@ -1,0 +1,36 @@
+body{
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+img{
+  margin-bottom: 4%;
+  width: 25vh;
+}
+
+#buttons{
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+button{
+  font-size: 1.7em;
+  min-width: 40vh;
+  margin-bottom: 3%;
+}
+
+@media(min-width: 800px){
+  #buttons{
+    align-items: center;
+    display: inline;
+  }
+
+  button{
+    font-size: 1.7em;
+    min-width: 20vh;
+
+  }
+}
+
